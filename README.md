@@ -32,7 +32,7 @@ Kubernetes (deployment + service manifests)
 
 Project Structure
 fraud-detection/
-├── fraud.py                   # Streamlit app for real-time prediction
+├── fraud_detection.py         # Streamlit app for real-time prediction
 ├── fraud_detection_model.pkl  # Trained ML model
 ├── fraud_analysis.ipynb       # Step-by-step Jupyter Notebook
 ├── requirements.txt           # Python dependencies
@@ -107,7 +107,7 @@ pip install -r requirements.txt
 jupyter notebook fraud_analysis.ipynb
 
 # Run Streamlit app
-streamlit run fraud.py
+streamlit run fraud_detection.py
 
 Docker Deployment
 # Build Docker image
