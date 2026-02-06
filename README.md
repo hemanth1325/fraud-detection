@@ -97,7 +97,7 @@ Display results (Fraud / Not Fraud) with Streamlit UI.
 
 Installation (Local)
 # Clone repo
-git clone https://github.com/yourusername/fraud-detection.git
+git clone https://github.com/hemanth1325/fraud-detection.git
 cd fraud-detection
 
 # Install dependencies
